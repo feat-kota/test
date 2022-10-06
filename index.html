@@ -4,29 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>メニュー（円）テスト</title>
+    <title>テスト</title>
+    <link rel="stylesheet" href="liset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
 </head>
 <body>
     
-  <nav class="menu">
-    <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
-    <label class="menu-open-button" for="menu-open">
-     <span class="lines line-1"></span>
-     <span class="lines line-2"></span>
-     <span class="lines line-3"></span>
-   </label>
- 
-    <a href="#" class="menu-item blue"> <i class="fa fa-anchor"></i> </a>
-    <a href="#" class="menu-item green"> <i class="fa fa-coffee"></i> </a>
-    <a href="#" class="menu-item red"> <i class="fa fa-heart"></i> </a>
-    <a href="#" class="menu-item purple"> <i class="fa fa-microphone"></i> </a>
-    <a href="#" class="menu-item orange"> <i class="fa fa-star"></i> </a>
-    <a href="#" class="menu-item lightblue"> <i class="fas fa-wrench"></i> </a>
- </nav>
+  <div id="alert" class="alert">
+      <div class="alert_box">
+          <div class="alert_content">
+              <p class="pass_text">パスワードを入力してください。</p>
+              <input id="password" type="text" name="password">
+              <button type="submit" onclick="check()">送信</button>
+          </div>
+      </div>
+  </div>
 
-<script src="script.js"></script>
+  <div class="main">
+      <p>ここがメインです。</p>
+  </div>
+    
+  <script src="script.js"></script>
         
 </body>
 </html>
